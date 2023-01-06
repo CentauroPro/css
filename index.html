@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRUEBA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor1">
+        <diV class="body body1">
+            <header>
+                <button class="nav-boton" onclick="ejecutar()">MENU</button>
+                <div class="haeader">
+                    <div class=" heade heade1">
+                        <nav>
+                           
+                            <a href="" class="nav-enlace "> FIFA</a>
+                            <a href="" class="nav-enlace "> ENTRENAMIENTO</a>
+                            <a href="" class="nav-enlace "> TÉCNICOS </a>
+                            <a href="" class="nav-enlace "> JUGADORES </a>
+                            <label class="switch">
+                                <input type="checkbox" id="slider" checked>
+                                <span class="slider"></span>
+                        </nav>
+                    </div>
+                    <div class=" heade heade2"></div>
+                </div>
+            </header>
+            <main>
+                <div class="main">
+                    <h1> LA PASIÓN <br> DEL FÚTBOL </h1>
+                    <blockquote class="COLOR">
+
+                        "Siempre quiero más. Ya sea que se trate de un gol o de ganar un juego <br> nunca estoy
+                        satisfecho, No soy un Dios, sólo Yo. <br> El éxito no es un accidente,<br> es trabajo duro,
+                        perseverancia, aprendizaje, estudio, sacrificio y sobre todo, amor por lo que estás
+                        haciendo o aprendiendo a hacer
+                        futbolista".<a href="">Leo Messi</a> <br>
+                        <br>
+                        <br>
+                        <br>
+                        AquÍ puedes encontrar La historia del fútbol.. <a href="">FIFA.</a>
+                    </blockquote>
+                    <div class="ma ma1">
+                        <UL>
+                            <h1>PAISES DE LA COMMEBOL</h1>
+                            <br>
+                            <br>
+                            <br>
+                            <Li>
+                                <button class="button"><a href="">VENEZUELA</a> </button>
+                                <button class="button"><a href="">ECUADOR</a></button>
+                                <button class="button"><a href="">PERÚ</a></button>
+                                <button class="button"><a href="">ARGENTINA</a></button>
+                                <button class="button"><a href="">BRASIL</a></button>
+                                <button class="button"><a href="">BOLIVIA</a></button>
+                                <button class="button"><a href="">PARAGUAY</a></button>
+                                <button class="button"><a href="">CHILE</a></button>
+                                <button class="button"><a href="">MÉXICO</a></button>
+                            </Li>
+                        </UL>
+                    </div>
+                    <footer class=" contacto">
+                        <div class="contacto contacto1">
+                            <address>DIRECCION: SIMÓN BOLÍVAR Y GASPAR DE VILLARROEL</address>
+                            <br>
+                            <address>Email: info[arroba]loja.gob.ec</address>
+                        </div>
+                    </footer>
+                </div>
+                <div class="man2 ma2"> </div>
+            </main>
+        </diV>
+    </div>
+
+    </div>
+    <Script src="JS/circulo.js""></Script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+<script> 
+    function ejecutar() {
+
+        var enlace=document.getElementsByClassName('nav-enlace');
+        for (var i = 0; i < enlace.length; i++) {
+            enlace[i].classList.toggle('ocultar');
+        }
+    }
+</script>
+
+
+
+</body>
+
+</html>
